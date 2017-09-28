@@ -1,0 +1,178 @@
+/*
+Idiot_idea__beat 
+by, Waxvapour@gmail.com
+*/
+
+/*former start*/
+.ree{
+	width:34%;
+}
+#vaa
+{
+border-style:dashed;
+border-color:grey;
+borde-size:5px;
+background-color:#e5e0bc;
+height:60px;
+width:50%;	
+border-radius:20px;
+text-align:center;
+font-size:30px;
+color:grey;
+font:"Lato", sans-serif;
+}
+#butt{
+	
+	border-style:dashed;
+border-color:grey;
+borde-size:5px;
+background-color:#e5e0bc;
+height:60px;
+width:20%;	
+border-radius:20px;
+text-align:center;
+font-size:30px;
+color:grey;
+font:"Lato", sans-serif;
+}
+#butt:hover{
+border-color:black;
+borde-size:5px;
+background-color:#c4bf9b;
+color:black;
+}
+#vaa:hover{
+	background-color:#c4bf9b;
+}
+/*former end*/
+/*parallex scroll*/
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+
+}
+
+.bgimg,.bgmimg
+{
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bgimg 
+{
+  background-image: url("pet.jpg");
+  min-height: 100%;
+}
+.bgmimg 
+{
+  background-image: url("face.jpg");
+  min-height: 50%;
+}
+#captionaa 
+{
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  display:block;
+}
+
+#captionaa span.border 
+{
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+#captionbb 
+{
+  position: absolute;
+  left: 0;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  display:none;
+}
+
+#captionbb span.border 
+{
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+
+.caption 
+{
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border 
+{
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.into
+{
+	color: #777;
+	background-color:white;
+	text-align:center;
+	padding:50px 80px;
+	text-align: justify;
+}
+
+h3 
+{
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+  text-align:center;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) 
+{
+    .bgimg,.bgmimg
+	{
+        background-attachment: scroll;
+	}
+}
+
+/*parallax scroll end*/
+
+/*auto type text*/
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 5rem;
+}
+
+.heading {
+  color: #eee;
+  font-size: 2rem;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+/*auto type text end*/
